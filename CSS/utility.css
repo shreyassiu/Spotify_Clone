@@ -1,0 +1,64 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.grey {
+    background-color: #121212;
+}
+
+.light-grey {
+    background-color: #1f1f1f;
+}
+
+.margin {
+    margin: 8px 8px;
+}
+
+.br {
+    border-radius: 8px;
+}
+
+.light-text {
+    color: #acacac;
+    transition: 0.2s ease-in-out;
+}
+
+.light-text:hover {
+    color: #fff;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.line-space {
+    height: 2px;
+    width: 95%;
+    margin: auto;
+}
+
+.small {
+    font-size: small;
+}
+
+.space {
+    padding: 0 20px 0 36px;
+}
+
+@media (max-width: 890px) {
+    .small {
+        font-size: xx-small;
+    }
+
+    .space {
+        padding: 0 15px 0 18px;
+    }
+}
